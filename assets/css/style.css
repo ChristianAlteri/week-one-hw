@@ -88,7 +88,7 @@ a {
 
 
 .benefits {
-    margin-right: 20px;
+    /* margin-right: 20px; */
     padding: 20px;
     clear: both;
     float: right;
@@ -102,10 +102,18 @@ a {
 
 /* Consolidated -lead -brand and -cost into one css class .benefit-LBC */
 
+
+
 .benefit-LBC {
-    width: 140px;
-    height: 350px;
+    height: 300px;
     color: #ffffff;
+    text-align: center 
+    /* width: 140px; */
+}
+
+.benefit-LBC h3 span{
+    width: auto;
+    margin-left: 50px
 }
 
 /* .benefit-lead {
